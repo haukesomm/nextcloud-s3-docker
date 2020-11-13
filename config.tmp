@@ -1,0 +1,26 @@
+############################################################
+#                                                          #
+#    Configuration of the environment variables            #
+#    needed by docker-compose.                             #
+#                                                          #
+#    Create a copy of this file named 'config'             #
+#    and fill in the settings below to match your setup!   #
+#                                                          #
+############################################################
+
+# User-specific configuration:
+HOST=
+EMAIL=
+
+# Configuration of the MariaDB database:
+DB_NAME=
+DB_ROOT_PASSWD=
+DB_USER=
+DB_USER_PASSWD=
+
+# Configuration of the S3-backend:
+S3_HOST=
+S3_BUCKET=
+S3_SECRET=
+S3_KEY=
+S3_REGION=
