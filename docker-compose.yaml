@@ -19,6 +19,7 @@ services:
       - ./proxy/certs:/etc/nginx/certs:ro
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./conf/proxy/servers.conf:/etc/nginx/conf.d/servers.conf:ro
       - ./conf/proxy/uploadsize.conf:/etc/nginx/conf.d/uploadsize.conf:ro
       - ./conf/proxy/timeout.conf:/etc/nginx/conf.d/timeout.conf:ro
     restart: unless-stopped
